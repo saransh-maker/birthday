@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<title>Cake for Papa</title>
+
+<style>
+
+body{
+margin:0;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+font-family:sans-serif;
+background:linear-gradient(135deg,#ffd6e0,#fff1c1);
+}
+
+h1{
+color:#e63946;
+font-size:40px;
+}
+
+.cake{
+margin-top:40px;
+position:relative;
+}
+
+.layer{
+width:220px;
+height:60px;
+background:#ffb3c1;
+border-radius:10px;
+margin:auto;
+}
+
+.layer2{
+width:200px;
+height:50px;
+background:#ffc8dd;
+margin:auto;
+margin-top:-10px;
+border-radius:10px;
+}
+
+.layer3{
+width:180px;
+height:40px;
+background:#ffafcc;
+margin:auto;
+margin-top:-10px;
+border-radius:10px;
+}
+
+.candle{
+width:12px;
+height:35px;
+background:white;
+position:absolute;
+top:-35px;
+left:50%;
+transform:translateX(-50%);
+}
+
+.flame{
+width:12px;
+height:18px;
+background:orange;
+border-radius:50%;
+position:absolute;
+top:-18px;
+animation:flicker 0.5s infinite alternate;
+}
+
+@keyframes flicker{
+from{transform:scale(1);}
+to{transform:scale(1.2);}
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>🎂 Happy Birthday Papa 🎂</h1>
+
+<div class="cake">
+
+<div class="layer"></div>
+<div class="layer2"></div>
+<div class="layer3"></div>
+
+<div class="candle">
+<div class="flame"></div>
+</div>
+
+</div>
+
+<p style="font-size:22px;margin-top:20px;">
+आज का दिन खुशियों से भरा रहे पापा ❤️
+</p>
+
+</body>
+</html>
